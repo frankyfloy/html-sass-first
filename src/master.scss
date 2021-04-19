@@ -1,0 +1,37 @@
+$rosso : red;
+$green : green;
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+h1,p{
+    color: $rosso;
+}
+
+p.green{
+    color : $green;
+}
+
+h1,p{
+    color: $rosso;
+}
+
+div{
+    background-color: $green;
+    height: 50px;
+    width: 50px;
+    padding: 30px;
+    margin-left: 30px;
+}
+
+
+body p:last-child{
+    font-size: 50px;
+    color: $green;
+}
